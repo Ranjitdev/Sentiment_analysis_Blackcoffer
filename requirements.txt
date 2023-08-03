@@ -1,4 +1,9 @@
 pandas
 numpy
 streamlit
+nltk
+python-docx
+requests
+bs4
+regex
 -e .
