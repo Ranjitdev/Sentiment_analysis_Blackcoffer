@@ -6,4 +6,6 @@ python-docx
 requests
 bs4
 regex
+dill
+openpyxl
 -e .
