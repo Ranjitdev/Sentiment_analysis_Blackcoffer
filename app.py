@@ -21,6 +21,7 @@ with tab2:
 with tab3:
     with st.form('Form'):
         submitted = st.form_submit_button('Update Website Contents Data')
-        st.caption('*Note: Updating of data will take near to 30 min')
+        st.caption('''*Note: Updating of data will take approximately 30 min
+        \nIt depends on internet speed and machine configuration''')
         if submitted:
             InitiateScrapping(dt.now()).get_insights()

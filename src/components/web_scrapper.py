@@ -45,7 +45,7 @@ class InitiateScrapping:
         try:
             urls_list = self.get_urls()
             out_text = []
-            total_size = len(urls_list)+1
+            total_size = len(urls_list)
             for url in urls_list:
                 scrap_start = dt.now()
                 script = requests.get(url)
